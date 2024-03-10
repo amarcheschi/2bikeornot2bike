@@ -54,4 +54,4 @@ if(weather_cond=="Rain" and wind_spd > 2 and (wind_dir-36)%360 <= b <= (wind_dir
 else:
     print("You can ride your bike")
 
-print(f"Weather conditions: {weather_cond}\nWind speed: {wind_spd}\nWind blowing from: {wind_dir}deg")
+print(f"Weather conditions: {weather_cond}\nWind speed: {wind_spd}ms\nWind blowing from: {wind_dir}deg")
